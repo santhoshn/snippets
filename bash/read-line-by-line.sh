@@ -5,7 +5,7 @@ if [ $# -eq 0 ]; then
 	exit
 fi
 
-CNT=
+CNT=0
 while read line
 do
 	CNT=`expr $CNT + 1`
